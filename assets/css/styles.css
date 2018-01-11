@@ -1,3 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1, h2, h3 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
 h1, h2 {
   color: #4aaaa5;
+}
+
+.heading {
+  position:fixed;
+  width:100%;
+  background: #ffffff;
+  border-color: #cccccc;
+}
+
+#logo {
+  color:white;
+  background: #4aaaa5;
+  float: left;
+}
+
+.menu {
+  float:right
+}
+
+.blocking {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.foot {
+  background: #666666;
 }
