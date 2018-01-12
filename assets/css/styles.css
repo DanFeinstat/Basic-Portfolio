@@ -165,3 +165,19 @@ color: #c1d0d8 !important;
 }
 
 /* Portfolio Page */
+
+.projectBox {
+  float:left;
+  text-align: center;
+}
+
+.projectName {
+  color:white;
+  background: #4aaaa5;
+  font-size: 18px;
+  line-height: 52px;
+  font-weight: normal;
+}
+
+width:235;
+height:175;
