@@ -147,6 +147,7 @@ margin-bottom: 8px;
   margin-top: 8px;
 }
 
+/* code for editing the color of placeholder text */
 input::-webkit-input-placeholder {
 color: #c1d0d8 !important;
 }
@@ -162,3 +163,5 @@ color: #c1d0d8 !important;
 input:-ms-input-placeholder {
 color: #c1d0d8 !important;
 }
+
+/* Portfolio Page */
