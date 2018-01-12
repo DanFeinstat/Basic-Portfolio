@@ -26,14 +26,14 @@ h1, h2 {
 
 #logo {
   float: left;
-  height:90px;
+  height:80px;
   width:330px;
   color:white;
   font-size:30px;
   background: #4aaaa5;
   text-align:center;
   margin: 0 auto;
-  line-height:90px;
+  line-height:80px;
 }
 
 .menu {
@@ -71,14 +71,14 @@ h1, h2 {
   max-width: 650px;
   margin: 0px 0px 40px;
   background:white;
-  padding: 20px 30px 30px 30px;
+  padding: 10px 30px 30px 30px;
   border: 1px solid #dddddd;
 }
 
 .sectionTitle {
     border-bottom: 3px solid #DCDCDC;
-    padding: 0px 0px 30px;
-    font-size: 32px;
+    padding: 0px 0px 28px;
+    font-size: 30px;
 }
 
 h2 {
@@ -92,7 +92,7 @@ h2 {
   width: 100%;
   max-width: 270px;
   background:white;
-  padding:14px 28px 40px 28px;
+  padding:14px 28px 30px 28px;
   border: 1px solid #dddddd;
 }
 
@@ -115,4 +115,50 @@ h2 {
   clear:both;
   border-top: 5px solid #4aaaa5;
   margin-top:40px;
+}
+
+/* Contact Page Specific Style */
+
+#form {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+#commentBox {
+  height: 190px;
+  width: 565px;
+  border-color:#e6e6e6
+}
+
+.identity {
+height: 35px;
+width: 565px;
+margin-bottom: 8px;
+}
+
+#submitButton {
+  height:40px;
+  width: 112px;
+  font-size: 18px;
+  color: #fffaf0;
+  text-align: center;
+  background: #4aaaa5;
+  border: none;
+  margin-top: 8px;
+}
+
+input::-webkit-input-placeholder {
+color: #c1d0d8 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #c1d0d8 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #c1d0d8 !important;
+}
+
+input:-ms-input-placeholder {
+color: #c1d0d8 !important;
 }
