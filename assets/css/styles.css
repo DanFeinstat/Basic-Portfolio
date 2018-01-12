@@ -61,6 +61,45 @@ h1, h2 {
   clear: both;
 }
 
+#contentBlock {
+  padding-top:120px;
+}
+
+.mainContent {
+  float:left;
+  width: 100%;
+  max-width: 650px;
+  margin: 0px 0px 40px;
+  background:white;
+  padding: 30px;
+  border: 1px solid #f3f3f3;
+}
+
+.sectionTitle {
+    border-bottom: 3px solid #DCDCDC;
+    padding: 0px 0px 30px;
+    font-size: 32px;
+}
+
+h2 {
+    border-bottom: 2px solid #F5F5F5;
+    padding:0px 0px 22px;
+    font-size:22px;
+}
+
+.sidebar {
+  float:right;
+  width: 100%;
+  max-width: 270px;
+  background:white;
+  padding:14px 28px 40px 28px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align:center;
+}
+
 .foot {
   padding: 30px 0;
   text-align:center;
@@ -69,17 +108,5 @@ h1, h2 {
   background: #666666;
   clear:both;
   border-top: 5px solid #4aaaa5;
-}
-
-.sidebar {
-  float:right;
-  width: 100%;
-  max-width: 270px;
-}
-
-.mainContent {
-  float:left;
-  width: 100%;
-  max-width: 650px;
-  margin: 120px 0px 0px 0px;
+  margin-top:40px;
 }
