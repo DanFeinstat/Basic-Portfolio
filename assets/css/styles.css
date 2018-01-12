@@ -72,7 +72,7 @@ h1, h2 {
   margin: 0px 0px 40px;
   background:white;
   padding: 30px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #dddddd;
 }
 
 .sectionTitle {
@@ -84,7 +84,7 @@ h1, h2 {
 h2 {
     border-bottom: 2px solid #F5F5F5;
     padding:0px 0px 22px;
-    font-size:22px;
+    line-height:22px;
 }
 
 .sidebar {
@@ -93,11 +93,17 @@ h2 {
   max-width: 270px;
   background:white;
   padding:14px 28px 40px 28px;
+  border: 1px solid #dddddd;
 }
 
 h2 {
   font-size: 20px;
   text-align:center;
+}
+
+.socialMedia {
+  width: 62px;
+  height: 62px;
 }
 
 .foot {
