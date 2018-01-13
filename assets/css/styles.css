@@ -2,10 +2,21 @@
   box-sizing: border-box;
 }
 
+/* added flexbox for sticky footer */
+html, body {
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #777777;
-    background: url("../images/dust_scratches.png");
+  display:flex;
+  flex-direction: column;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
+  background: url("../images/dust_scratches.png");
 }
 
 h1, h2, h3 {
