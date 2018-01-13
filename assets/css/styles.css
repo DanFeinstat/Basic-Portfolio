@@ -7,6 +7,11 @@ html, body {
   height: 100%;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .content {
   min-height:720px;
 }
@@ -31,6 +36,7 @@ h1, h2 {
   background: #ffffff;
   border-color: #cccccc;
   border-bottom: 3px solid #ccc;
+  z-index: 90;
 }
 
 #logo {
