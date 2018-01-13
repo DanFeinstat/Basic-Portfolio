@@ -96,6 +96,8 @@ h2 {
     border-bottom: 2px solid #F5F5F5;
     padding:0px 0px 22px;
     line-height:22px;
+    font-size: 20px;
+    text-align:center;
 }
 
 .sidebar {
@@ -105,11 +107,6 @@ h2 {
   background:white;
   padding:14px 28px 30px 28px;
   border: 1px solid #dddddd;
-}
-
-h2 {
-  font-size: 20px;
-  text-align:center;
 }
 
 .socialMedia {
@@ -130,6 +127,13 @@ h2 {
   clear:both;
   border-top: 5px solid #4aaaa5;
   margin-top:40px;
+}
+
+/*Index.html Specific Style*/
+
+.portrait {
+  float: left;
+  margin: 0px 10px 10px;
 }
 
 /* Contact Page Specific Style */
