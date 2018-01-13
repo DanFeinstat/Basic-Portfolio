@@ -9,14 +9,14 @@ html, body {
 
 .content {
   flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
-  display:flex;
-  flex-direction: column;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
-  background: url("../images/dust_scratches.png");
+  background: url('../images/dust_scratches.png');
 }
 
 h1, h2, h3 {
@@ -114,9 +114,21 @@ h2 {
   height: 62px;
 }
 
+.problemChild {
+  width: 56px;
+  height: 56px;
+  margin-bottom:3px;
+}
+
+
 .socialMedia:hover {
   border: 2px solid grey;
 }
+
+.problemChild:hover {
+  border: 2px solid grey;
+}
+
 
 .foot {
   padding: 30px 0;
