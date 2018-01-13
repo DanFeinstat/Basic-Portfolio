@@ -8,9 +8,7 @@ html, body {
 }
 
 .content {
-  flex: 1 0 auto;
-  display: flex;
-  flex-direction: column;
+  min-height:720px;
 }
 
 body {
