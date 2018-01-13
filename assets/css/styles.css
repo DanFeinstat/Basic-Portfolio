@@ -169,6 +169,8 @@ color: #c1d0d8 !important;
 .projectBox {
   float:left;
   text-align: center;
+  width: 235px;
+  height: 175px;
 }
 
 .projectName {
@@ -177,7 +179,30 @@ color: #c1d0d8 !important;
   font-size: 18px;
   line-height: 52px;
   font-weight: normal;
+  margin-top:110px
 }
 
-width:235;
-height:175;
+#hangmanBox {
+  background-image: url(../images/ph1.jpeg);
+  margin: 10px 15px 25px;
+}
+
+#rpgBox {
+  background-image: url(../images/placeholder2.jpeg);
+  margin: 10px 0px 25px 15px;
+}
+
+#triviaBox {
+  background-image: url(../images/placeholder3.jpeg);
+  margin: 25px 15px 25px;
+}
+
+#widgetBox {
+  background-image: url(../images/placeholder4.jpeg);
+  margin: 25px 0px 25px 15px;
+}
+
+#rpsBox {
+  background-image: url(../images/placeholder5.jpeg);
+  margin: 25px 15px 10px;
+}
