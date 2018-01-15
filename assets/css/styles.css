@@ -94,13 +94,13 @@ h1, h2 {
 
 .sectionTitle {
     border-bottom: 3px solid #DCDCDC;
-    padding: 0px 0px 28px;
+    padding: 20px 0px 25px 7px;
     font-size: 30px;
 }
 
 h2 {
     border-bottom: 2px solid #F5F5F5;
-    padding:0px 0px 22px;
+    padding:8px 12px 16px 12px;
     line-height:22px;
     font-size: 20px;
     text-align:center;
@@ -154,6 +154,7 @@ h2 {
 .portrait {
   float: left;
   margin:26px 20px 10px;
+  box-shadow: 5px 5px 5px #D3D3D3;
 }
 
 #firstPara {
